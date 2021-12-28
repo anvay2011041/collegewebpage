@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('bg2.jpg');
+    height: 1500px;
+    color: white;
+    
+}
+.logo{
+    
+    left: 50px;
+    top: 50px;
+}
+.navi{    
+    top: 300px;
+}
+.collegename{
+    color:cornsilk;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
