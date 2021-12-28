@@ -16,5 +16,7 @@ body{
 }
 .collegename{
     color:cornsilk;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    line-height: 1.5em;
 }
