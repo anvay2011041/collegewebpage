@@ -1,21 +1,36 @@
 *{
     font-family: 'Ubuntu';
 }
-#logo{
-    display: inline;
-    margin-left: 50px;
-    position: relative;
-    left: 50px;
-    top: 50px;
-}
-.collegename{
-    margin-left: 50px;
-    position: relative;
-    left: 350px;
-    color:rgb(255, 255, 255);
+#Top{
     
+    background-image: url(bg2.jpg);
+    margin:0px;
+    padding: 0px;
+}
+#head1{
+    width: 30%;
+}
+#logo{
+    border-radius: 20%;
+    height: 90px;
+    width: 90px;
+    margin: 15px 15px 15px 50px;
+    float: left;
+}
+#collegename{
+    
+    color:rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
     font-size: 18px;
-    line-height: 1.5em;
+
+}
+#cname{
+    margin: 0px;
+    padding: 10px;
+}
+#caddress{
+    line-height: 2px;
 }
 a{
     text-decoration: none;
@@ -42,12 +57,17 @@ nav{
     text-align: center;
 }
 body{
+    margin: 0px;
+    padding: 0px;
     background: url('riccardo-oliva-C5DLhUkEWfM-unsplash.jpg') 100%;
     background-repeat: no-repeat;
     background-size:cover;
     /* background-position-x: 10px; */
     color: white;
     
+}
+#innerbody{
+
 }
 
 #message{
@@ -104,4 +124,7 @@ body{
 }
 .programmetitle{
     color:#3e3e70;
+}
+footer{
+    border: 2px none; border-radius: 10px; margin: 0%; width: 100%; background-color: black; padding: 2%;
 }
